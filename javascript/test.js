@@ -7,25 +7,25 @@
 
 Block Comment */
 
-var greeting = "hello";
+//var greeting = "hello";
 
-var first_name = "Patsy";
+//var first_name = "Patsy";
 
-var last_name = "Klotz Neher";
+//var last_name = "Klotz Neher";
 
-var message1 = "don't forget to pick uyp these items";
+//var message1 = "don't forget to pick uyp these items";
 
-var message2 = "also, make sure to gather wood, for dooms day prepping";
+//var message2 = "also, make sure to gather wood, for dooms day prepping";
 
-var favorite_quote = "\"Four Score ...\"";
+//var favorite_quote = "\"Four Score ...\"";
 
-var my_image = "<img src=\"images/myImage.png\" />";
+//var my_image = "<img src=\"images/myImage.png\" />";
 
 //use single quotes if you have a lot of illegal characters
 
-var my_image = '<img src="images/myImage.png" />';
+//var my_image = '<img src="images/myImage.png" />';
 
-var goodbye = "see you later";
+//var goodbye = "see you later";
 
 //BAD variable names (errors!)
 //var first name = "";
@@ -76,13 +76,14 @@ function onClick(evt)
     evt.preventDefault(evt);//this line stops the form from submitting by preventing its default action
   
   //Forms
-    var element1 = document.getElementById("form1").elements.item(1); value;
-    var element2 = document.getElementById("form1").elements.item(2); value;
-    var element3 = document.getElementById("form1").elements.item(3); value;
-    var element4 = document.getElementById("form1").elements.item(4); value;
-    var element5 = document.getElementById("form1").elements.item(5); value;
-    var element6 = document.getElementById("form1").elements.item(6); value;
+    var element1 = document.getElementById("form1").elements.item(0).value;
+    var element2 = document.getElementById("form1").elements.item(1).value;
+    var element3 = document.getElementById("form1").elements.item(2).value;
+    var element4 = document.getElementById("form1").elements.item(3).value;
+    var element5 = document.getElementById("form1").elements.item(4).value;
+    var element6 = document.getElementById("form1").elements.item(5).value;
   console.log(static_words1 + element1 + static_words2 + element2 + static_words3 + element3 + static_words4 + element4 + static_words5 + element5 + static_words6 + element6);
+  }
+    
   //document.getElementById("myForm").elements.item(0).value;
   //return false;
-    }
